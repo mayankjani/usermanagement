@@ -1,0 +1,9 @@
+<div><%= notice %></div>
+
+<div><b>Username:</b> <%= @user.username %> </div>
+<div><b>Email:</b> <%= @user.email %> </div>
+
+<div>
+<%= link_to "Edit", edit_user_path(@user) %>
+<%= link_to "Back", users_path %>
+</div>

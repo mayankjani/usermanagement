@@ -1,0 +1,7 @@
+ruby_version="ruby-1.9.3-p286"
+gemset="latestrails3"
+rvm ${ruby_version}@${gemset}
+
+
+
+
